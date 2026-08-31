@@ -21,7 +21,6 @@
             bindings = <&kp>, <&kp>;
         };
     };
-    keymap {
     conditional_layers {
         compatible = "zmk,conditional-layers";
         tri_layer {
@@ -30,6 +29,7 @@
         };
     };
 
+    keymap {
         compatible = "zmk,keymap";
         default_layer {
             bindings = <
