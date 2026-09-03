@@ -16,5 +16,8 @@ manifest:
     - name: zmk-helpers
       remote: urob
       revision: v0.3
+    - name: zmk-tri-state
+      remote: urob
+      revision: v0.3
   self:
     path: config
