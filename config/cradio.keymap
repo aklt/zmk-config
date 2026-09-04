@@ -31,16 +31,16 @@
             require-prior-idle-ms = <100>;
             bindings = <&kp>, <&kp>;
         };
-        swap_tab: swapper {
+        swap_tab: swap_tab {
             compatible = "zmk,behavior-tri-state";
-            label = "SWAPPER";
+            label = "SWAP_TAB";
             #binding-cells = <0>;
             bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
             ignored-key-positions = <LT0>;
         };
-        swap_lbk: swapper {
+        swap_lbk: swap_lbk {
             compatible = "zmk,behavior-tri-state";
-            label = "SWAPPER";
+            label = "SWAP_LBK";
             #binding-cells = <0>;
             bindings = <&mo 2>, <&kp RBKT>, <&mo 2>;
             ignored-key-positions = <LT0>;
